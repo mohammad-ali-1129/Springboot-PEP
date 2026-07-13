@@ -12,9 +12,16 @@ public class DemoApplication {
 
 		ApplicationContext context = SpringApplication.run(DemoApplication.class, args);
 
+		Student student = context.getBean(Student.class);
+		student.setName("ali");
 
-		OrderService orderService = context.getBean(OrderService.class);
-		orderService.placeOrder();
+		student.setAge(22);
+
+		System.out.println(student.getName());
+		System.out.println(student.getAge());
+
+//		OrderService orderService = context.getBean(OrderService.class);
+//		orderService.placeOrder();
 	}
 
 }
