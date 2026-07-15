@@ -14,7 +14,7 @@ public class StudentService {
 
     public Student studentValidate(Student student) {
 
-        int id = student.getId();
+        long id = student.getId();
         String name = student.getName();
         int age = student.getAge();
         String dept = student.getDept();
