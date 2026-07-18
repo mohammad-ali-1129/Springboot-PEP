@@ -1,4 +1,4 @@
-package com.mohammadali.demo.studentServer;
+package com.mohammadali.demo.studentServer.Entity;
 
 
 import jakarta.persistence.Entity;

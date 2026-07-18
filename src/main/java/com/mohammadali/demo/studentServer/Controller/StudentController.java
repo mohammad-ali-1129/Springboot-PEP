@@ -1,6 +1,8 @@
-package com.mohammadali.demo.studentServer;
+package com.mohammadali.demo.studentServer.Controller;
 
 
+import com.mohammadali.demo.studentServer.Entity.Student;
+import com.mohammadali.demo.studentServer.Service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
