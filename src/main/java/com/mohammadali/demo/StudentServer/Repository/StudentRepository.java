@@ -1,7 +1,7 @@
-package com.mohammadali.demo.studentServer.Repository;
+package com.mohammadali.demo.StudentServer.Repository;
 
 
-import com.mohammadali.demo.studentServer.Entity.Student;
+import com.mohammadali.demo.StudentServer.Entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 //@Repository

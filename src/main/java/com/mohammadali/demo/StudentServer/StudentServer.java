@@ -1,4 +1,4 @@
-package com.mohammadali.demo.studentServer;
+package com.mohammadali.demo.StudentServer;
 
 import org.springframework.web.bind.annotation.RestController;
 
